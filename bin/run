@@ -23,7 +23,9 @@ erick.add_article(pulse, "Baba The 6th")
 erick.add_article(daily, "Justice")
 erick.add_article(standard, "Justice")
 
-# pp erick.articles
+# pp Article.all.length
+
+# pp erick.articles.length
 # pp pulse.contributing_authors
 # pp pulse.article_titles
 # pp Magazine.find_by_name("Pulse")
@@ -33,5 +35,6 @@ erick.add_article(standard, "Justice")
 # pp erick.magazines
 # pp david.magazines
 # pp erick.topic_areas
+pp david.topic_areas
 
 # pp pulse.contributors
