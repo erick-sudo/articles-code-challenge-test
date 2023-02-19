@@ -1,0 +1,37 @@
+#!/usr/bin/env ruby
+
+require_relative '../config/environment'
+
+erick = Author.new("Erick")
+david = Author.new("David")
+linet = Author.new("Linet")
+
+pulse = Magazine.new("Pulse", "fashion")
+daily = Magazine.new("Daily", "daily")
+standard = Magazine.new("Standard", "standard")
+
+david.add_article(pulse, "Elections")
+david.add_article(daily, "Sports")
+david.add_article(pulse, "Baba The 6th")
+
+linet.add_article(pulse, "Sports")
+linet.add_article(pulse, "Sports")
+
+erick.add_article(pulse, "Elections")
+erick.add_article(pulse, "Sports")
+erick.add_article(pulse, "Baba The 6th")
+erick.add_article(daily, "Justice")
+erick.add_article(standard, "Justice")
+
+# pp erick.articles
+# pp pulse.contributing_authors
+# pp pulse.article_titles
+# pp Magazine.find_by_name("Pulse")
+
+# pp pulse.article_titles
+
+# pp erick.magazines
+# pp david.magazines
+# pp erick.topic_areas
+
+# pp pulse.contributors
