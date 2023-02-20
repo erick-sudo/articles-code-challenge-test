@@ -21,7 +21,7 @@ To get the test results,
 Put your code in the provided classes in the ```author.rb, magazine.rb and article.rb``` ruby files.
 
 ## License
-MIT License
+MIT License Copyright (c) 2023 Erick Obuya. All rights reserved.
 
 ## Author
 Erick Obuya
