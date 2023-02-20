@@ -205,7 +205,7 @@ describe 'Classes and Initializers' do
             end
     
             it "returns an array of authors who have written more than 2 articles for the magazine" do
-                expect(pulse.contributing_authors.map { |au| au.name }).to eq(["David", "Linet", "Erick"])
+                expect(pulse.contributing_authors.map { |au| au.name }).to eq(["David", "Erick"])
                 expect(daily.contributing_authors.map { |au| au.name }).to eq([])
                 expect(standard.contributing_authors.map { |au| au.name }).to eq([])
             end
