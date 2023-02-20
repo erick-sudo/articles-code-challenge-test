@@ -20,7 +20,7 @@
 To get the test results,
 Put your code in the provided classes in the ```author.rb, magazine.rb and article.rb``` ruby files.
 4. Run Test  
-    ```$ learn-lab test```
+    ```$ learn-lab test```  
     OR  
     ```$ rspec```  
     OR  
