@@ -19,6 +19,12 @@
 
 To get the test results,
 Put your code in the provided classes in the ```author.rb, magazine.rb and article.rb``` ruby files.
+4. Run Test  
+    ```$ learn-lab test```
+    OR  
+    ```$ rspec```  
+    OR  
+    ```$ learn test```
 
 ## License
 MIT License Copyright (c) 2023 Erick Obuya. All rights reserved.
