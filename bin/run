@@ -26,15 +26,17 @@ erick.add_article(standard, "Justice")
 # pp Article.all.length
 
 # pp erick.articles.length
-# pp pulse.contributing_authors
+pp standard.contributing_authors
 # pp pulse.article_titles
 # pp Magazine.find_by_name("Pulse")
 
-# pp pulse.article_titles
+# p pulse.article_titles
+# p daily.article_titles
+# p standard.article_titles
 
 # pp erick.magazines
 # pp david.magazines
 # pp erick.topic_areas
-pp david.topic_areas
+# pp david.topic_areas
 
-# pp pulse.contributors
+# pp standard.contributors
